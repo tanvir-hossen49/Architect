@@ -407,6 +407,9 @@ textarea:focus {
   .features .feature-quick-view {
     text-align: center;
   }
+  .features .feature-quick-view img {
+    width: 100%;
+  }
   .features .feature-quick-view .feature-left {
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
@@ -425,6 +428,7 @@ textarea:focus {
   .contact {
     justify-content: center;
     flex-direction: column;
+    padding: 0;
   }
   .brand-information {
     text-align: center;
@@ -439,6 +443,7 @@ textarea:focus {
   .brand-information img {
     width: 100%;
   }
+
   /* footer */
   .footer .section-description {
     padding: 30px;
