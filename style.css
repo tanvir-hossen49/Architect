@@ -408,6 +408,7 @@ textarea:focus {
     text-align: center;
   }
   .features .feature-quick-view .feature-left {
+    text-align: center;
     grid-template-columns: repeat(1, 1fr);
   }
   /* some fact section  */
