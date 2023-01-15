@@ -415,12 +415,9 @@ textarea:focus {
     text-align: center;
     grid-template-columns: repeat(1, 1fr);
   }
-  .features .feature-right {
-    position: relative;
-  }
-  .features .feature-right .primary-btn {
-    padding: 0 !important;
+  .feature-right .btn .primary-btn {
     font-size: 20px !important;
+    padding: 0 !important;
   }
   /* some fact section  */
   .fact-content {
@@ -496,6 +493,9 @@ textarea:focus {
   .features .feature-quick-view,
   .feature-details {
     flex-direction: column;
+  }
+  .feature-quick-view .feature-left img {
+    width: 100%;
   }
   .features .feature-quick-view {
     text-align: center;
